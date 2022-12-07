@@ -2,7 +2,9 @@ import './App.css'
 
 function App() {
   return (
-    <h1>test</h1>
+    <div className="main-container">
+
+    </div>
   )
 }
 
