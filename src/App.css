@@ -57,5 +57,6 @@
 
 .input-container input {
     border-width: 1px;
-    border-radius: 1rem;
+    border-radius: .5rem;
+    padding: .3rem;
 }
