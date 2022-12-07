@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
 .main-container {
     width: 100vw;
     height: 100vh;
@@ -5,15 +7,29 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #434343 0%, black 100%);
+    font-family:'Arimo' 
 }
 
 .login-container {
     display: flex;
     flex-direction: row;
     max-width: 60rem;
+    border-radius: 3rem;
     background-color: #F5F5F5;
 }
 
 .img-container {
     max-width: 40%;
+    border-radius: 3rem;  
+}
+
+.img-container img{
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
 }
