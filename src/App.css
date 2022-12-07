@@ -31,5 +31,31 @@
 }
 
 .headline-container {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.headline-container h1 {
+    margin-bottom: 1rem;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 1rem;
+}
+
+.input-container label {
+    font-size: 1.2rem;
+}
+
+.input-container input {
+    border-width: 1px;
+    border-radius: 1rem;
 }
