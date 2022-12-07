@@ -1,1 +1,19 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #434343 0%, black 100%);
+}
 
+.login-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 60rem;
+    background-color: #F5F5F5;
+}
+
+.img-container {
+    max-width: 40%;
+}
