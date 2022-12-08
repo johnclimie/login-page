@@ -10,6 +10,8 @@ function App() {
           <h1>Login</h1>
         </div>
 
+        <hr />
+
         <div className="user-container">
           <div className="input-container">
             <label for='username'>Username</label>
