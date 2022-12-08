@@ -1,11 +1,12 @@
 import './App.css';
-import mtnImg from './images/test.jpg';
+import deviceLogo from './assets/device.svg';
 
 function App() {
   return (
     <div className="main-container">
       <div className="login-container">
         <div className="header-container">
+          <img src={deviceLogo} className='svg-icon' alt='Device Logo'/>
           <h1>Login</h1>
         </div>
 
@@ -17,6 +18,9 @@ function App() {
           <div className="input-container">
             <label for='password'>Password</label>
             <input type='password' className='input' id='password'></input>
+          </div>
+          <div className="button-container">
+            <button>Login</button>
           </div>
         </div>
       </div>
