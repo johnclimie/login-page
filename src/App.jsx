@@ -22,7 +22,7 @@ function App() {
             <input type='password' className='input' id='password'></input>
           </div>
           <div className="button-container">
-            <button>Login</button>
+            <button>Go</button>
           </div>
         </div>
       </div>
