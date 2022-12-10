@@ -14,12 +14,12 @@ function App() {
 
         <div className="user-container">
           <div className="input-container">
-            <label for='username'>Username</label>
-            <input type='text' className='input' id='username'></input>
+            <label for="username">Username</label>
+            <input type="text" className="input" id="username"></input>
           </div>
           <div className="input-container">
-            <label for='password'>Password</label>
-            <input type='password' className='input' id='password'></input>
+            <label for="password">Password</label>
+            <input type="password" className="input" id="password"></input>
           </div>
           <div className="button-container">
             <button>Go</button>
